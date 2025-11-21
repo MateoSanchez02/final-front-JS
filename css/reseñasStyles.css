@@ -1,0 +1,113 @@
+.redes-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.red{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 14vw;
+    height: 230px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-style:italic;
+    font-size: large;
+}
+
+.red img{
+    height: 15vh;
+    width: 10vw;
+}
+
+
+.reseñas{
+    background-color: #030000;
+    display: grid;
+    
+}
+
+.reseña{
+    border: 1px solid white;
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: right;
+    background-color: #000000;
+    opacity: 1;
+    background: repeating-linear-gradient( 45deg, #2c2c32, #2c2c32 17.5px, #000000 17.5px, #000000 87.5px );
+    margin: 10px 0;
+    height: 30vh;
+    max-width: 850px;
+}
+
+.reseña-img{
+    height: 100%;
+    object-fit:contain;
+}
+.reseña-img img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+    width: 200px;
+    
+}
+
+.reseña-opinion p{
+    text-align: left;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 10px;
+}
+.reseña-persona{
+    font-family: "Open Sans", sans-serif;
+    padding: 0 10px;
+}
+
+.reverse{
+flex-direction: row-reverse;
+background-color: #1a1717;
+opacity: 1;
+background: repeating-linear-gradient( -45deg, #000000, #000000 17.5px, #1a1717 17.5px, #1a1717 87.5px );
+}
+
+.reverse img{
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media(max-width:1000px){
+    .redes-container{
+        justify-content: space-evenly;
+    }
+    .red{
+        width: 20vw;
+    }
+    .red img{
+        width: 20vw;
+    }
+    .reseña{
+        height: 30vh;
+    }
+}
+@media(max-width:800px){
+    .red{
+        width: 25vw;
+    }
+}
+@media(max-width:600px){
+    .red{
+        width: 25vw;
+    }
+    .reseña{
+        height:38vh;
+
+    }
+    .reseña-persona{
+        display: none;
+    }
+}

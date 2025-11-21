@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- FAV ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/contactoStyles.css">
+    
+    <title>Santa Pilcha</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><img src="/img/logo-png.png" alt="logo"></div>
+        <div class="navbar" id="nav">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./reseñas.html">Reseñas</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <div class="carrito-container">
+                <li><a href="./carrito.html" class="carrito-compras"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <span id="contador-carrito">0</span>
+                </div>
+            </ul>
+        </div>
+        <button class="btn-menu fas fa-bars" id="btn"></button>
+    </header>
+    <main>
+        <section class="contacto" id="contacto">
+        <div class="contact-form-container container">
+            <h1 class="section-title">Contáctanos</h1>
+            <p style="margin-bottom: 2rem; color: #6b7280; text-align: center;">¿Tenes alguna consulta o reclamo? Mandanos un mail y con gusto resolvemos tu inquietud.</p>
+            
+            <form action="https://formspree.io/f/xyznbzkr" method="POST">
+                
+                <div class="form-group">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </div>
+
+    </section>
+
+
+    </main>
+    <footer>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./reseñas.html">Reseñas</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <div class="redes">
+                <div class="social">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>@santa_.pilcha</p>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>+11 12345678</p>
+                </div>
+                <div class="social">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>santapilcha24@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <h4>Santa Pilcha 2025 derechos reservados</h3>
+        
+
+    </footer>
+    <script src="/js/actualizar.js" type="module"></script>
+    <script src="/js/button.js" type="module"></script>
+</body>
+</html>
