@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     const contenedor = document.getElementById("contenedor-tarjetas");
     const carrito = obtenerCarrito(); 
     actualizarContador(carrito);
-    fetch("/final-front-JS/data/productos.json").then(res => {
+    fetch("../data/productos.json").then(res => {
         if(!res.ok){
             throw new Error (`Error HTTP status: ${res.status}`)
         }
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         const imagen = document.createElement("img");
         imagen.classList.add("producto-imagen");
         imagen.alt = producto.nombre;
-        imagen.src = `/${producto.img}`
+        imagen.src = producto.img;
         tarjeta.appendChild(imagen)
 
         //crear elemento div para la info
