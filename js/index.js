@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     const contenedor = document.getElementById("contenedor-tarjetas");
     const carrito = obtenerCarrito(); 
     actualizarContador(carrito);
-    fetch("/data/productos.json").then(res => {
+    fetch("/final-front-JS/data/productos.json").then(res => {
         if(!res.ok){
             throw new Error (`Error HTTP status: ${res.status}`)
         }
