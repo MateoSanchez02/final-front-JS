@@ -34,7 +34,7 @@ const renderizarCarrito = () => {
         const imagen = document.createElement("img");
         imagen.classList.add("producto-imagen");
         imagen.alt = producto.nombre;
-        imagen.src = `/${producto.img}`
+        imagen.src = producto.img
         tarjeta.appendChild(imagen)
 
         //crear elemento div para la info y agregarlo a la card
