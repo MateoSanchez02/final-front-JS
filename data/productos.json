@@ -1,7 +1,7 @@
 [
     {"id": "1", "nombre": "Campera Juventus 21/22", "descripcion": "Campera de salida con publicidades, sin detalles. Talle L","precio": 75000, "img": "/final-front-JS/img/productos/campe-juve3.jpeg"},
     {"id": "2", "nombre": "Chomba Argetina 2022", "descripcion": "Chomba de la seleccion argentina, de algodon. Talle L","precio": 35000, "img": "/final-front-JS/img/productos/chomba-afa.jpeg"},
-    {"id": "3", "nombre": "Buzo Liverpool 2000`s", "descripcion": "Buzo replica del Liverpool, tiene algunas manchas en la manga izquierda. Talle XL","precio": 20000, "img": "final-front-JS/img/productos/buzo-liverp.jpeg"},
+    {"id": "3", "nombre": "Buzo Liverpool 2000`s", "descripcion": "Buzo replica del Liverpool, tiene algunas manchas en la manga izquierda. Talle XL","precio": 20000, "img": "/final-front-JS/img/productos/buzo-liverp.jpeg"},
     {"id": "4", "nombre": "Short Boca 2016", "descripcion": "Short entrenamiento de Boca, sin detalles. Talle XL juvenil va para un S adulto","precio": 20000, "img": "/final-front-JS/img/productos/short-boca.jpeg"},
     {"id": "5", "nombre": "Short Argentina 2010", "descripcion": "Short titular de la seleccion del 2010. Sin detalles, talle M", "precio": 15000, "img": "/final-front-JS/img/productos/short-afa.jpeg"},
     {"id": "6", "nombre": "Musculosa Boca 2004", "descripcion": "Musculosa de entrenamiento del xeneize, diseño Total90. Detalles en las publicidades. Talle S", "precio": 30000, "img": "/final-front-JS/img/productos/musculosa-boca.jpeg"},
